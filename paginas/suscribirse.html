@@ -1,131 +1,146 @@
 <!DOCTYPE html>
 <html lang="es_AR">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="../img/logo_transparente.png" type="icon">
+    <link rel="icon" href="../img/logo_transparente.png" type="icon" />
     <title>Eco Vida | Suscribirse</title>
 
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="../css/estilos.css" />
-</head>
+  </head>
 
-<body>
-
-
+  <body>
     <header>
-        <section class="fondo-2">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <div class="container-fluid px-3 px-lg-5">
+      <section class="fondo-2">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid px-3 px-lg-5">
+            <a
+              class="navbar-brand d-flex align-items-center gap-2"
+              href="../index.html"
+            >
+              <img
+                class="logo"
+                src="../img/logo_transparente.png"
+                alt="Eco Vida"
+              />
+              <span class="logo1">Eco Vida</span>
+            </a>
 
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarContent"
+              aria-controls="navbarContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-                    <a class="navbar-brand d-flex align-items-center gap-2" href="../index.html">
-                        <img class="logo" src="../img/logo_transparente.png" alt="Eco Vida">
-                        <span class="logo1">Eco Vida</span>
-                    </a>
+            <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="./suscribirse.html"
+                    >Suscribirse</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./sobrenosotros.html"
+                    >Sobre Nosotros</a
+                  >
+                </li>
+              </ul>
 
-
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-
-                    <div class="collapse navbar-collapse" id="navbarContent">
-
-
-                        <ul class="navbar-nav mx-auto text-center mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./inicio.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="./suscribirse.html">Suscribirse</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./sobrenosotros.html">Sobre Nosotros</a>
-                            </li>
-                        </ul>
-
-
-                        <ul class="navbar-nav text-center mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./iniciarsesion.html">Iniciar Sesión</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./registrarse.html">Registrarse</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </nav>
-        </section>
+              <ul class="navbar-nav text-center mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="./iniciarsesion.html"
+                    >Iniciar Sesión</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./registrarse.html">Registrarse</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
     </header>
 
-
     <main class="main">
-        <div class="container d-flex justify-content-center align-items-center min-vh-100">
-            <div class="card shadow p-4" style="max-width: 500px; width: 100%;">
-                <div class="card-body">
+      <div
+        class="container d-flex justify-content-center align-items-center min-vh-100"
+      >
+        <div class="card shadow p-4" style="max-width: 500px; width: 100%">
+          <div class="card-body">
+            <h2 class="text-center titulo mb-3">Suscribite a ECO VIDA 🌿</h2>
+            <p class="text-center texto mb-4">
+              Recibí novedades, consejos ecológicos y promociones exclusivas
+              para cuidar el planeta.
+            </p>
 
-                    <h2 class="text-center titulo mb-3">Suscribite a ECO VIDA 🌿</h2>
-                    <p class="text-center texto mb-4">
-                        Recibí novedades, consejos ecológicos y promociones exclusivas para cuidar el planeta.
-                    </p>
+            <form>
+              <div class="mb-3">
+                <label class="form-label">Nombre completo *</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Tu nombre"
+                  required
+                  maxlength="30"
+                />
+              </div>
 
-                    <form>
-                        <div class="mb-3">
-                            <label class="form-label">Nombre completo *</label>
-                            <input type="text" class="form-control" placeholder="Tu nombre" required>
-                        </div>
+              <div class="mb-3">
+                <label class="form-label">Correo electrónico *</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="correo@ejemplo.com"
+                  required
+                  maxlength="30"
+                />
+              </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">Correo electrónico *</label>
-                            <input type="email" class="form-control" placeholder="correo@ejemplo.com" required>
-                        </div>
+              <div class="mb-3">
+                <label class="form-label">¿Qué te interesa recibir?</label>
+                <select class="form-select">
+                  <option selected>Noticias y consejos ecológicos</option>
+                  <option>Promociones y descuentos</option>
+                  <option>Nuevos productos</option>
+                </select>
+              </div>
 
-                        <div class="mb-3">
-                            <label class="form-label">¿Qué te interesa recibir?</label>
-                            <select class="form-select">
-                                <option selected>Noticias y consejos ecológicos</option>
-                                <option>Promociones y descuentos</option>
-                                <option>Nuevos productos</option>
-                            </select>
-                        </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" required />
+                <label class="form-check-label">
+                  Acepto recibir información de ECO VIDA
+                </label>
+              </div>
 
-                        <div class="form-check mb-3">
-                            <input class="form-check-input" type="checkbox" required>
-                            <label class="form-check-label">
-                                Acepto recibir información de ECO VIDA
-                            </label>
-                        </div>
-
-                        <div class="d-grid">
-                            <button type="submit" class="btn btn-eco">Suscribirme</button>
-                        </div>
-                    </form>
-
-                </div>
-            </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-eco">Suscribirme</button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
     </main>
 
-
-    <footer class="text-center py-3 text-muted">
-        © 2025 ECO VIDA 🌿
-    </footer>
-
+    <footer class="text-center py-3 text-muted">© 2025 ECO VIDA 🌿</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
-</body>
-
+  </body>
 </html>
