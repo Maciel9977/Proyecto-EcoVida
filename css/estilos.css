@@ -2,7 +2,99 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
+
+.main {
+  background-color: #f5f1e8;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+
+
+.fondo-2 {
+  background: #4A7C2C;
+
+}
+
+
+
+
+.logo {
+  height: 65px;
+  width: auto;
+  display: block;
+  margin-right: 20px;
+  filter: drop-shadow(0 0 0 transparent);
+  transition: transform 0.3s ease;
+}
+
+
+.navbar .nav-link {
+  color: white !important;
+  font-size: 25px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+  color: white !important;
+}
+
+
+
+
+
+.navbar .nav-link:hover,
+.navbar .nav-link:active {
+  transform: scale(1.12);
+  color: white;
+}
+
+.logo:hover,
+.logo:active {
+  transform: scale(1.45);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand:hover .logo1,
+.logo1:active {
+  transform: scale(1.15);
+  color: white;
+}
+
+
+.btn-eco {
+  background-color: #7fbf7f;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-eco:hover {
+  background-color: #6aae6a;
+  transform: scale(1.03);
+  color: white;
+}
+
 .footer-section {
   display: flex;
   flex-wrap: wrap;
@@ -22,6 +114,7 @@
 .footer-section-logo img {
   width: 180px;
 }
+
 .footer-section-logo p {
   max-width: 320px;
   text-align: center;
