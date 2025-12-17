@@ -88,10 +88,7 @@
   object-fit: cover;
   object-position: center;
 }
-.main {
-  background-color: #f5efe6;
-  display: grid;
-}
+
 .card img {
   height: 50vh;
   object-fit: cover;
@@ -202,5 +199,207 @@
 
   .image_container {
     max-width: 220px;
+  }
+}
+/* TARJETAS */
+.fondo-2 {
+  background: #4a7c2c;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 65px;
+  width: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.45);
+}
+
+.logo1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand:hover .logo1 {
+  transform: scale(1.15);
+  color: white;
+}
+
+.navbar .nav-link {
+  font-size: 25px;
+  font-weight: 600;
+  color: white !important;
+  transition: transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  transform: scale(1.12);
+  color: white;
+}
+
+.fondo-1 {
+  background-image: url("../img/fondo de pantalla 1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.titulo-tips {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: white;
+}
+
+.eco-consejo {
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+  filter: invert(53%) sepia(86%) saturate(2478%) hue-rotate(1deg);
+}
+
+@media (min-width: 992px) {
+  .carousel-control-prev {
+    left: -60px;
+  }
+
+  .carousel-control-next {
+    right: -60px;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: static;
+    transform: none;
+    width: auto;
+    height: auto;
+    margin: 10px 15px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .carousel {
+    text-align: center;
+  }
+}
+
+.fondo-z {
+  background-color: #f5f1e8;
+}
+
+.card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #4a7c2c;
+  padding: 30px 40px;
+  align-items: center;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.footer-section-logo img {
+  width: 180px;
+}
+
+.footer-section-logo p {
+  max-width: 320px;
+  text-align: center;
+}
+
+.footer-section-redes ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.footer-section li {
+  list-style: none;
+}
+
+.footer-section-redes img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.footer-section-redes a:hover img {
+  transform: scale(1.2);
+}
+
+.footer-section-map iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 576px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .footer-col {
+    width: 50%;
+  }
+}
+
+@media (min-width: 993px) {
+  .footer-col {
+    width: 33.33%;
   }
 }
