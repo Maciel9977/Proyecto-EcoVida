@@ -80,6 +80,32 @@
   transform: scale(1.03);
   color: white;
 }
+.carousel {
+  height: 50vh;
+}
+.carousel img {
+  height: 50vh;
+  object-fit: cover;
+  object-position: center;
+}
+.main {
+  background-color: #f5efe6;
+  display: grid;
+}
+.card img {
+  height: 50vh;
+  object-fit: cover;
+}
+.conteiner {
+  background-color: #f5efe6;
+  display: grid;
+}
+.btn-loco a {
+  background-color: #7fb069;
+}
+.btn-loco a:hover {
+  background-color: #4a7c2c;
+}
 
 .footer-section {
   background-color: #4a7c2c;
