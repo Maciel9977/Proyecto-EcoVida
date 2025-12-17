@@ -257,7 +257,7 @@
   font-family: Verdana, sans-serif;
   font-size: 0.9rem;
   font-weight: bold;
-  color: orange;
+  color: white;
   padding-bottom: 20px;
 }
 
@@ -266,7 +266,7 @@
   font-family: Verdana, sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
-  color: orange;
+  color: white;
 }
 
 .eco-consejo {
@@ -276,7 +276,7 @@
   font-weight: bold;
   margin-top: 20px;
   margin-bottom: 15px;
-  color: orange;
+  color: white;
 }
 
 .carousel-control-prev-icon,
