@@ -89,7 +89,7 @@
   object-position: center;
 }
 
-.fondo-z .card img {
+.card img {
   height: 50vh;
   object-fit: cover;
 }
