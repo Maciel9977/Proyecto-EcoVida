@@ -88,11 +88,8 @@
   object-fit: cover;
   object-position: center;
 }
-.main {
-  background-color: #f5efe6;
-  display: grid;
-}
-.card img {
+
+.fondo-z .card img {
   height: 50vh;
   object-fit: cover;
 }
@@ -205,9 +202,6 @@
   }
 }
 /* TARJETAS */
-/* ===== RESET ===== */
-
-/* ===== HEADER / NAVBAR ===== */
 .fondo-2 {
   background: #4a7c2c;
 }
@@ -253,7 +247,6 @@
   color: white;
 }
 
-/* ===== SECCIÓN TIPS ===== */
 .fondo-1 {
   background-image: url("../img/fondo de pantalla 1.jpg");
   background-size: cover;
@@ -286,7 +279,6 @@
   color: orange;
 }
 
-/* ===== CARRUSEL ===== */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   width: 30px;
@@ -333,17 +325,15 @@
   }
 }
 
-/* ===== SECCIÓN RECETAS ===== */
 .fondo-z {
   background-color: #f5f1e8;
 }
 
 .card {
-  max-width: 18rem;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-/* ===== FOOTER ===== */
 .footer-section {
   display: flex;
   flex-wrap: wrap;
@@ -396,7 +386,6 @@
   max-width: 100%;
 }
 
-/* ===== FOOTER RESPONSIVE ===== */
 @media (max-width: 576px) {
   .footer-col {
     width: 100%;
